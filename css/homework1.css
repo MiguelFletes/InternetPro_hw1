@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Css for homework1.html*/
+
+
+html, body {width:100%;}
+
+body {
+    background-image: url("../images/bg3.jpg"); 
+    overflow-x:hidden;
+    
+}
+
+.none {
+    text-decoration:none;
+    
+}
+
+h1 {
+    text-align: center; 
+    color: red;
+    
+}
+
+h2 {
+    margin-left:1em
+    
+}
+
+h3 {
+    margin-left:1em
+    
+}
+
+ul.menu {
+    list-style:none; 
+    padding-left:0px; 
+    padding-right:30px; 
+    
+}
+
+li {
+    text-decoration:none;
+    
+}
+            
+p {
+    margin-left:20px;
+    
+}
+            
+ul.menu li {
+    display:inline;
+    
+}
+            
+ul.menu li a:hover {
+    background-color:yellow;  
+    font-size:20;
+    
+}
+
+.posImg { 
+    margin-top: 20px; 
+    margin-right: 50px;
+}
+
+div.menuDiv {
+    border:#006 solid 1px; 
+    margin-left: -4px; 
+    margin-right: 12px; 
+    background-color:#595959;
+    
+}
+
+h3#h1 {
+    margin-left:1em; 
+    color:red
+}
+
+.table1 { 
+    width:90%; 
+    border-spacing:0; 
+    border:#006 solid 1px; 
+    font-size:18px; 
+    margin-left: 50px; 
+    table-layout:fixed;
+} 
+
+td, th {
+    border:#006 solid 1px; 
+    padding:5px;
+}
+
+th {
+    text-align:center; 
+    background-color:#595959; 
+    font-size:25px;
+}
+
+.posImg { 
+    margin-top: 20px; 
+    display:block; 
+    margin:auto; 
+    text-align:center;
+}
