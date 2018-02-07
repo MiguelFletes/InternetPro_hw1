@@ -35,7 +35,9 @@
                 The life cycle defines a methodology for improving the quality of software and the overall development 
                 process.
             </p>
-            
+            <?php
+            $uselessVariable = 42;
+            ?>
             <p>
                 <img src="images/sdlc_stages.jpg" alt="sdlc model" class="posImg" style="float:right;">
                 
